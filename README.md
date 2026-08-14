@@ -6,6 +6,9 @@ The application is structured into a Node.js Express backend connected to MongoD
 
 ---
 
+##LIVE LINK##
+health-track-ai-two.vercel.app
+
 ## 🚀 Key Features
 
 1. **Patient / Member Dashboard**
@@ -23,7 +26,7 @@ The application is structured into a Node.js Express backend connected to MongoD
    - Unauthenticated `POST /api/lab/webhook` endpoint simulating clinical laboratory reports.
    - Validates values, maps biomarkers, saves results, and automatically logs events to the audit trail.
 
-4. **Security & HIPAA-Aligned Logging**
+4. **Security & Audit Logging**
    - Role-based Access Control (RBAC) preventing patients from accessing clinician panels or other patients' records.
    - Robust audit service capturing logins, record lookups, note additions, AI evaluations, and webhook ingestions.
 
